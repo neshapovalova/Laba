@@ -1,0 +1,155 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    border-bottom: 1px solid #fff;
+}
+
+ul{ 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.first-screen {
+    background-image: url('./img/bgc.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main__container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.header__nav{
+    display: flex;
+    height: 80px;
+    align-items: center;
+}
+
+.nav__list{
+    display: flex;
+    color: #fff;
+    align-items: center;
+}
+
+.nav__item{
+    margin-right: 47px;
+    font-size: 16px;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.preview{
+    padding-top: 160px;
+    padding-bottom: 154px;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 810px;
+    background-image: url('./img/Rectangle\ 3.png');
+}
+
+.preview__layout {
+    display: flex;
+    flex-direction: row;
+}
+
+.preview__left-l {
+    margin-left: 200px;
+}
+
+.preview__right-l {
+    margin-left: 152px;
+    margin-top: 117px;
+}
+
+.preview__left{
+    display: flex;
+    flex-direction: column;
+}
+.preview__right {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.preview__box {
+    margin-right: 30px;
+    margin-bottom: 30px;
+    width: 173px;
+    padding: 30px 40px;
+    color: #fff;
+}
+
+.box__title {
+    width: 100%;
+    font-size: 21px;
+}
+
+.preview__title {
+    color: #fff;
+    font-family: Plumb;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+}
+
+.preview__description {
+    display: flex;
+    margin-top: 35px;
+    font-size: 24px;
+    color:#fff
+}
+
+footer {
+    background-color: #30BCC9;
+    height: 476px;
+    color: #fff;
+    padding: 70px 60px;
+}
+
+.footer-l {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.soc {
+    margin-right: 30px;
+}
+
+
+.footer__list {
+    display: flex;
+    flex-direction: column;
+    margin-right: 166px;
+    margin-bottom: 40px;
+    width: 188px;
+}
+
+.footer__list-title {
+    font-size: 21px;
+    margin-bottom: 20px;
+}
+.footer__list-item  {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.footer__input {
+    border: none;
+    width: 215px;
+    height: 40px;
+    background: #fff;
+    color: #9C9C9C;
+    padding: 0px 15px;
+}
+
+.send-sms {
+    background-color: #F6404F;
+    padding: 9px;
+}
